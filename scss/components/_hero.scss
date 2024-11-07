@@ -1,0 +1,40 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.hero {
+    text-align: center;
+    background-color: #00304b;
+    padding: $box-padding-sm;
+
+    @include screen-breakpoints(md) {
+        padding: $box-padding-md;
+    }
+    @include screen-breakpoints(lg) {
+        padding: $box-padding-lg;
+    }
+}
+
+.hero__title {
+    color: #fff;
+    font-weight: bold;
+    @include heading-default;
+
+    @include screen-breakpoints(md) {
+        font-size: $heading-font-size-md;
+    }
+    @include screen-breakpoints(lg) {
+        font-size: $heading-font-size-lg;
+    }
+}
+
+.hero__description {
+    color: #fff;
+    @include description-default;
+
+    @include screen-breakpoints(md) {
+        font-size: $description-font-size-md;
+    }
+    @include screen-breakpoints(lg) {
+        font-size: $description-font-size-lg;
+    }
+}

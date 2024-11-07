@@ -1,370 +1,340 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://cdn.tailwindcss.com"></script>
-		<link rel="stylesheet" href="./css/nav.css" />
-		<title>Document</title>
-	</head>
-	<body>
-		<div>
-			<header
-				class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-4 md:p-6"
-			>
-				<h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Bet88" />
+        <meta
+            name="description"
+            content="Bet88 provides a wealth of options no
+      matter whether you access the site from a phone or a computer."
+        />
+        <meta name="keywords" content="casino, online games, online betting" />
+        <meta name="theme-color" content="#fff" />
+        <meta name="robots" content="noindex,nofollow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="1xbet" />
+        <!-- Change the URL for original domain -->
+        <meta property="og:url" content="https://jovpbcfd.github.io/1xbet/home.html" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body dir="ltr">
+        <header class="header container">
+            <h1 class="header__logo">1xbet Bangladesh</h1>
+            <nav>
+                <div>
+                    <!-- Hamburger icon -->
+                    <button id="hamburger" type="button" class="button button-svg--bars">
+                        <span class="visually-hidden">open menu</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"
+                            ></path>
+                        </svg>
+                    </button>
 
-				<nav class="p-4">
-					<div class="max-w-7xl mx-auto flex justify-between items-center">
-						<!-- Hamburger icon -->
-						<button
-							id="hamburger"
-							type="button"
-							class="text-black border-2 border-gray-700 rounded-md p-2 lg:hidden"
-						>
-							<span class="sr-only">open menu</span>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								class="h-6 w-6"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M4 6h16M4 12h16M4 18h16"
-								></path>
-							</svg>
-						</button>
+                    <!-- Menu items -->
+                    <div id="menu" class="header__navigation header__navigation--desktop">
+                        <ul class="header__menu header__menu--desktop">
+                            <li><a href="./home.html">Home</a></li>
+                            <li>
+                                <a href="./mobile-app.html">Mobile app</a>
+                            </li>
+                            <li>
+                                <a href="./registration.html">Registration</a>
+                            </li>
+                            <li>
+                                <a href="./promo-code.html">Promo Code</a>
+                            </li>
+                            <li>
+                                <a href="./payment-method.html">Payment methods</a>
+                            </li>
+                            <li>
+                                <a href="./casino.html">Casino</a>
+                            </li>
+                            <li>
+                                <a href="./support.html">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-						<!-- Menu items -->
-						<div id="menu">
-							<ul class="hidden lg:flex space-x-6 text-black">
-								<li><a href="./home.html" class="block">Home</a></li>
-								<li>
-									<a href="./mobile-app.html" class="block">Mobile app</a>
-								</li>
-								<li>
-									<a href="./registration.html" class="block">Registration</a>
-								</li>
-								<li>
-									<a href="./promo-code.html" class="block">Promo Code</a>
-								</li>
-								<li>
-									<a href="./payment-method.html" class="block"
-										>Payment methods</a
-									>
-								</li>
-								<li>
-									<a href="./casino.html" class="block">Casino</a>
-								</li>
-								<li>
-									<a href="./support.html" class="block">Support</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+            <!-- Mobile menu -->
+            <div id="mobileMenu" class="header__mobile-action">
+                <button id="closeMenu" type="button" class="button button-svg--close">
+                    <span class="visually-hidden">Close menu</span>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18 18 6M6 6l12 12"
+                        />
+                    </svg>
+                </button>
+                <div class="header__navigation header__navigation--mobile">
+                    <ul class="header__menu header__menu--mobile">
+                        <li><a href="./home.html">Home</a></li>
+                        <li>
+                            <a href="./mobile-app.html">Mobile app</a>
+                        </li>
+                        <li>
+                            <a href="./registration.html">Registration</a>
+                        </li>
+                        <li>
+                            <a href="./promo-code.html">Promo Code</a>
+                        </li>
+                        <li>
+                            <a href="./payment-method.html">Payment methods</a>
+                        </li>
+                        <li>
+                            <a href="./casino.html">Casino</a>
+                        </li>
+                        <li>
+                            <a href="./support.html">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-				<!-- Mobile menu -->
-				<div
-					id="mobileMenu"
-					class="mobile-nav bg-white text-black px-5 py-10 flex flex-col gap-2 lg:hidden"
-				>
-					<button
-						id="closeMenu"
-						class="ml-auto p-1 text-gray-400 border rounded-md"
-					>
-						<span class="sr-only">Close menu</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="size-6"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M6 18 18 6M6 6l12 12"
-							/>
-						</svg>
-					</button>
-					<div>
-						<ul>
-							<li><a href="./home.html" class="block px-2 py-1.5">Home</a></li>
-							<li>
-								<a href="./mobile-app.html" class="block px-2 py-1.5"
-									>Mobile app</a
-								>
-							</li>
-							<li>
-								<a href="./registration.html" class="block px-2 py-1.5"
-									>Registration</a
-								>
-							</li>
-							<li>
-								<a href="./promo-code.html" class="block px-2 py-1.5"
-									>Promo Code</a
-								>
-							</li>
-							<li>
-								<a href="./payment-method.html" class="block px-2 py-1.5"
-									>Payment methods</a
-								>
-							</li>
-							<li>
-								<a href="./casino.html" class="block px-2 py-1.5">Casino</a>
-							</li>
-							<li>
-								<a href="./support.html" class="block px-2 py-1.5">Support</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</header>
-		</div>
+        <main>
+            <section class="bg-[#00304b] text-white text-center p-3 mt-10 md:p-10">
+                <div lass="max-w-6xl md:mx-auto">
+                    <h2 class="font-bold text-2xl md:text-4xl">1xBet Registration Bangladesh</h2>
+                    <p class="my-4 font-normal md:my-9">
+                        Before you can start placing bets or using the 1xBet platform in Bangladesh,
+                        you must first create an account. This involves going through a registration
+                        process, which you can initiate by clicking on the “Registration” button
+                        provided on our website or app. Completing this step is essential, and for
+                        full access to withdrawals, you’ll also need to fully verify your account to
+                        ensure the security and compliance of your activities.
+                    </p>
 
-		<main>
-			<section class="bg-[#00304b] text-white text-center p-3 mt-10 md:p-10">
-				<div lass="max-w-6xl md:mx-auto">
-					<h2 class="font-bold text-2xl md:text-4xl">
-						1xBet Registration Bangladesh
-					</h2>
-					<p class="my-4 font-normal md:my-9">
-						Before you can start placing bets or using the 1xBet platform in
-						Bangladesh, you must first create an account. This involves going
-						through a registration process, which you can initiate by clicking
-						on the “Registration” button provided on our website or app.
-						Completing this step is essential, and for full access to
-						withdrawals, you’ll also need to fully verify your account to ensure
-						the security and compliance of your activities.
-					</p>
+                    <div class="flex w-full justify-center gap-2 mt-3 md:gap-5 md:mt-5">
+                        <button
+                            class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
+                        >
+                            Download 1xbet App
+                        </button>
+                        <button
+                            class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
+                        >
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </section>
 
-					<div class="flex w-full justify-center gap-2 mt-3 md:gap-5 md:mt-5">
-						<button
-							class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
-						>
-							Download 1xbet App
-						</button>
-						<button
-							class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
-						>
-							Register
-						</button>
-					</div>
-				</div>
-			</section>
+            <section class="mt-10 p-3 sm:p-5 md:p-0">
+                <div class="max-w-6xl mx-auto leading-relaxed">
+                    <p class="my-5">
+                        To register, click the “Registration” button, and fill out the necessary
+                        details in the form. After your account is set up, proceed with the
+                        verification process to enable withdrawals and secure your account further.
+                        New users are greeted with enticing welcome bonuses. For sports betting,
+                        there’s a 100% first deposit bonus up to 15,600 BDT. Casino enthusiasts can
+                        enjoy a welcome package that includes a 100% bonus up to 150,000 BDT and 150
+                        free spins. These features make joining 1xBet in Bangladesh straightforward
+                        and rewarding, offering a seamless start with generous incentives to enhance
+                        your betting journey.
+                    </p>
+                </div>
 
-			<section class="mt-10 p-3 sm:p-5 md:p-0">
-				<div class="max-w-6xl mx-auto leading-relaxed">
-					<p class="my-5">
-						To register, click the “Registration” button, and fill out the
-						necessary details in the form. After your account is set up, proceed
-						with the verification process to enable withdrawals and secure your
-						account further. New users are greeted with enticing welcome
-						bonuses. For sports betting, there’s a 100% first deposit bonus up
-						to 15,600 BDT. Casino enthusiasts can enjoy a welcome package that
-						includes a 100% bonus up to 150,000 BDT and 150 free spins. These
-						features make joining 1xBet in Bangladesh straightforward and
-						rewarding, offering a seamless start with generous incentives to
-						enhance your betting journey.
-					</p>
-				</div>
+                <div class="max-w-6xl mx-auto leading-relaxed">
+                    <h3 class="font-medium text-3xl mb-3">
+                        All Methods Of 1xbet Registration in Bangladesh
+                    </h3>
+                    <p class="my-5">
+                        1xBet BD offers multiple registration methods to accommodate users with
+                        different preferences, making the signup process as accessible and
+                        convenient as possible. Here are all the methods available for creating an
+                        account at 1xBet BD:
+                    </p>
 
-				<div class="max-w-6xl mx-auto leading-relaxed">
-					<h3 class="font-medium text-3xl mb-3">
-						All Methods Of 1xbet Registration in Bangladesh
-					</h3>
-					<p class="my-5">
-						1xBet BD offers multiple registration methods to accommodate users
-						with different preferences, making the signup process as accessible
-						and convenient as possible. Here are all the methods available for
-						creating an account at 1xBet BD:
-					</p>
+                    <ol class="list-decimal pl-4">
+                        <li>
+                            <span class="font-bold">One-Click Registration:</span> This is the
+                            fastest way to register. Simply click the “Register” button, select your
+                            country, and preferred currency, and the system generates a username and
+                            password for you instantly.
+                        </li>
 
-					<ol class="list-decimal pl-4">
-						<li>
-							<span class="font-bold">One-Click Registration:</span> This is the
-							fastest way to register. Simply click the “Register” button,
-							select your country, and preferred currency, and the system
-							generates a username and password for you instantly.
-						</li>
+                        <li>
+                            <span class="font-bold">By Phone Number: </span> Register using your
+                            mobile phone number. Enter your phone number, choose your currency, and
+                            receive a confirmation code via SMS to complete the process.
+                        </li>
 
-						<li>
-							<span class="font-bold">By Phone Number: </span> Register using
-							your mobile phone number. Enter your phone number, choose your
-							currency, and receive a confirmation code via SMS to complete the
-							process.
-						</li>
+                        <li>
+                            <span class="font-bold">By Email:</span> For those who prefer a more
+                            secure registration method, registering by email involves providing more
+                            detailed information. You’ll need to enter your country, name, email
+                            address, and create a password. You’ll also choose your currency and
+                            verify your email through a confirmation link.
+                        </li>
 
-						<li>
-							<span class="font-bold">By Email:</span> For those who prefer a
-							more secure registration method, registering by email involves
-							providing more detailed information. You’ll need to enter your
-							country, name, email address, and create a password. You’ll also
-							choose your currency and verify your email through a confirmation
-							link.
-						</li>
+                        <li>
+                            <span class="font-bold">Social Networks and Messengers: </span>
+                            F1xBet BD allows you to register through various social media accounts
+                            such as Facebook or messengers like Telegram. This method links your
+                            1xBet BD account with your social media profile, streamlining the
+                            registration process.
+                        </li>
+                    </ol>
 
-						<li>
-							<span class="font-bold">Social Networks and Messengers: </span>
-							F1xBet BD allows you to register through various social media
-							accounts such as Facebook or messengers like Telegram. This method
-							links your 1xBet BD account with your social media profile,
-							streamlining the registration process.
-						</li>
-					</ol>
+                    <p class="my-5">
+                        Each method is designed to provide flexibility and ease of access, ensuring
+                        that users can start betting with minimal hassle. After registration,
+                        remember to verify your account to unlock the full spectrum of features and
+                        withdrawal options. This process is crucial for security and to comply with
+                        betting regulations.
+                    </p>
+                </div>
 
-					<p class="my-5">
-						Each method is designed to provide flexibility and ease of access,
-						ensuring that users can start betting with minimal hassle. After
-						registration, remember to verify your account to unlock the full
-						spectrum of features and withdrawal options. This process is crucial
-						for security and to comply with betting regulations.
-					</p>
-				</div>
+                <div class="max-w-6xl mx-auto leading-relaxed">
+                    <h3 class="font-medium text-3xl mb-3">1xBet Account Verification Process BD</h3>
+                    <p>
+                        The 1xBet account verification process is a crucial step to ensure the
+                        security of your Bangladesh account and to comply with regulatory
+                        requirements. This process helps prevent fraudulent activity and allows you
+                        to make withdrawals. Here’s how you can verify your 1xBet BD account:
+                    </p>
 
-				<div class="max-w-6xl mx-auto leading-relaxed">
-					<h3 class="font-medium text-3xl mb-3">
-						1xBet Account Verification Process BD
-					</h3>
-					<p>
-						The 1xBet account verification process is a crucial step to ensure
-						the security of your Bangladesh account and to comply with
-						regulatory requirements. This process helps prevent fraudulent
-						activity and allows you to make withdrawals. Here’s how you can
-						verify your 1xBet BD account:
-					</p>
+                    <ol class="list-decimal pl-4 leading-loose">
+                        <li>
+                            <span class="font-bold">Complete Registration: </span> First, you must
+                            register for an account using any of the methods available—via
+                            one-click, phone number, email, or through social networks.
+                        </li>
 
-					<ol class="list-decimal pl-4 leading-loose">
-						<li>
-							<span class="font-bold">Complete Registration: </span> First, you
-							must register for an account using any of the methods
-							available—via one-click, phone number, email, or through social
-							networks.
-						</li>
+                        <li>
+                            <span class="font-bold">Provide Personal Information: </span>
+                            After registration, log in to your account and access the account
+                            settings or personal profile section. Here, you will be required to fill
+                            out your personal information fully and accurately. This includes your
+                            full name, date of birth, and other details as per the registration
+                            method.
+                        </li>
+                        <li>
+                            <span class="font-bold">Submit Identification Documents: </span>
+                            1xBet requires you to submit documents to verify your identity and
+                            Bangladesh address. This usually includes a copy of your
+                            government-issued ID (passport, driver’s license, or national ID card)
+                            and a recent utility bill or bank statement that confirms your address.
+                        </li>
 
-						<li>
-							<span class="font-bold">Provide Personal Information: </span>
-							After registration, log in to your account and access the account
-							settings or personal profile section. Here, you will be required
-							to fill out your personal information fully and accurately. This
-							includes your full name, date of birth, and other details as per
-							the registration method.
-						</li>
-						<li>
-							<span class="font-bold">Submit Identification Documents: </span>
-							1xBet requires you to submit documents to verify your identity and
-							Bangladesh address. This usually includes a copy of your
-							government-issued ID (passport, driver’s license, or national ID
-							card) and a recent utility bill or bank statement that confirms
-							your address.
-						</li>
+                        <li>
+                            <span class="font-bold">Wait for Approval: </span>
+                            Once you have submitted your documents, 1xBet BD will review them to
+                            ensure they meet the criteria. This process can take a few days,
+                            depending on the volume of requests the support team is handling.
+                        </li>
 
-						<li>
-							<span class="font-bold">Wait for Approval: </span>
-							Once you have submitted your documents, 1xBet BD will review them
-							to ensure they meet the criteria. This process can take a few
-							days, depending on the volume of requests the support team is
-							handling.
-						</li>
+                        <li>
+                            <span>Confirmation: </span> You will receive an email or a notification
+                            on your 1xBet account once your account has been successfully verified
+                            in Bangladesh. If there are any issues with the documents you have
+                            submitted, 1xBet BD may request additional information or clarification.
+                        </li>
+                    </ol>
 
-						<li>
-							<span>Confirmation: </span> You will receive an email or a
-							notification on your 1xBet account once your account has been
-							successfully verified in Bangladesh. If there are any issues with
-							the documents you have submitted, 1xBet BD may request additional
-							information or clarification.
-						</li>
-					</ol>
+                    <p class="my-5">
+                        Completing these steps ensures that your transactions are secure and that
+                        you have full access to all the features and services offered by 1xBet BD,
+                        including the ability to withdraw winnings. It is recommended to complete
+                        the verification process early to avoid delays when you want to make
+                        withdrawals.
+                    </p>
+                </div>
 
-					<p class="my-5">
-						Completing these steps ensures that your transactions are secure and
-						that you have full access to all the features and services offered
-						by 1xBet BD, including the ability to withdraw winnings. It is
-						recommended to complete the verification process early to avoid
-						delays when you want to make withdrawals.
-					</p>
-				</div>
+                <div class="max-w-6xl mx-auto leading-relaxed">
+                    <h3 class="font-medium text-3xl mb-3">1xBet Registration Rules BD</h3>
+                    <p class="my-5">
+                        When signing up for 1xBet BD, it’s essential to follow a few simple but
+                        important rules to ensure your account is secure and compliant:
+                    </p>
 
-				<div class="max-w-6xl mx-auto leading-relaxed">
-					<h3 class="font-medium text-3xl mb-3">1xBet Registration Rules BD</h3>
-					<p class="my-5">
-						When signing up for 1xBet BD, it’s essential to follow a few simple
-						but important rules to ensure your account is secure and compliant:
-					</p>
+                    <ul class="list-decimal pl-4 leading-loose">
+                        <li>
+                            <span class="font-bold">Age Requirement: </span>You must be 18 years or
+                            older to register, in line with legal requirements for gambling.
+                        </li>
+                        <li>
+                            <span class="font-bold">Single Account: </span>Each user is permitted
+                            only one account. Creating multiple accounts can lead to suspension.
+                        </li>
+                        <li>
+                            <span class="font-bold">Age Requirement: </span>You must be 18 years or
+                            older to register, in line with legal requirements for gambling.
+                        </li>
+                        <li>
+                            <span class="font-bold">Accurate Information: </span> Provide true and
+                            accurate personal details during registration. Any discrepancies can
+                            cause issues, especially when verifying your identity.
+                        </li>
+                        <li>
+                            <span class="font-bold">Verification Process: </span> After registering,
+                            you’ll need to verify your identity by submitting the required
+                            documents. This step is crucial for activating withdrawal capabilities.
+                        </li>
 
-					<ul class="list-decimal pl-4 leading-loose">
-						<li>
-							<span class="font-bold">Age Requirement: </span>You must be 18
-							years or older to register, in line with legal requirements for
-							gambling.
-						</li>
-						<li>
-							<span class="font-bold">Single Account: </span>Each user is
-							permitted only one account. Creating multiple accounts can lead to
-							suspension.
-						</li>
-						<li>
-							<span class="font-bold">Age Requirement: </span>You must be 18
-							years or older to register, in line with legal requirements for
-							gambling.
-						</li>
-						<li>
-							<span class="font-bold">Accurate Information: </span> Provide true
-							and accurate personal details during registration. Any
-							discrepancies can cause issues, especially when verifying your
-							identity.
-						</li>
-						<li>
-							<span class="font-bold">Verification Process: </span> After
-							registering, you’ll need to verify your identity by submitting the
-							required documents. This step is crucial for activating withdrawal
-							capabilities.
-						</li>
+                        <li>
+                            <span class="font-bold">Agree to Terms:</span> Make sure to read and
+                            accept 1xBet’s terms and conditions in Bangladesh. This includes
+                            understanding the rules of betting, how your data is handled, and the
+                            commitments to responsible gambling.
+                        </li>
 
-						<li>
-							<span class="font-bold">Agree to Terms:</span> Make sure to read
-							and accept 1xBet’s terms and conditions in Bangladesh. This
-							includes understanding the rules of betting, how your data is
-							handled, and the commitments to responsible gambling.
-						</li>
+                        <li>
+                            <span class="font-bold">Privacy and Security: </span> Keep your account
+                            details private. Sharing your login with others is against the terms and
+                            could lead to account closure.
+                        </li>
+                    </ul>
 
-						<li>
-							<span class="font-bold">Privacy and Security: </span> Keep your
-							account details private. Sharing your login with others is against
-							the terms and could lead to account closure.
-						</li>
-					</ul>
+                    <p class="my-5">
+                        Following these guidelines will help maintain the security of your account
+                        and ensure a smooth and compliant experience on 1xBet BD.Signing up with
+                        1xBet in Bangladesh is both simple and secure, offering you swift access to
+                        a world of sports betting and more. Make sure to adhere to the registration
+                        guidelines, provide precise information, and complete the necessary account
+                        verification to fully unlock the platform’s capabilities. Once registered,
+                        you’ll be able to delve into an extensive array of betting options, benefit
+                        from competitive odds, and enjoy generous promotional offers. Step into the
+                        exciting realm of 1xBet today, and elevate your betting journey in one of
+                        the premier betting landscapes in the Bangladesh region.
+                    </p>
+                </div>
+            </section>
+        </main>
 
-					<p class="my-5">
-						Following these guidelines will help maintain the security of your
-						account and ensure a smooth and compliant experience on 1xBet
-						BD.Signing up with 1xBet in Bangladesh is both simple and secure,
-						offering you swift access to a world of sports betting and more.
-						Make sure to adhere to the registration guidelines, provide precise
-						information, and complete the necessary account verification to
-						fully unlock the platform’s capabilities. Once registered, you’ll be
-						able to delve into an extensive array of betting options, benefit
-						from competitive odds, and enjoy generous promotional offers. Step
-						into the exciting realm of 1xBet today, and elevate your betting
-						journey in one of the premier betting landscapes in the Bangladesh
-						region.
-					</p>
-				</div>
-			</section>
-		</main>
+        <footer class="box footer">
+            <div class="container">
+                <p>Copyright &copy; 2024 1xbetbangladesh.com</p>
+            </div>
+        </footer>
 
-		<footer class="flex items-center border-t border-slate-200">
-			<div class="max-w-6xl mx-auto py-12">
-				<p>Copyright &copy; 2024 1xbetbangladesh.com</p>
-			</div>
-		</footer>
-
-		<script src="./js/nav.js"></script>
-	</body>
+        <script src="./js/app.js"></script>
+    </body>
 </html>

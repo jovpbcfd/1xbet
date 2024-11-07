@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+@mixin heading-default {
+    line-height: $heading-line-height;
+    font-weight: $heading-font-weight;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+@mixin description-default {
+    font-size: $description-font-size-sm;
+    line-height: $description-line-height;
+    margin-bottom: 1rem;
+}
+
+@mixin screen-breakpoints($size) {
+    // mobile up
+    @if $size == xs {
+        @media only screen and (min-width: map-get($breakpoints, 'mobile')) {
+            @content;
+        }
+    }
+    // tablet up
+    @if $size == md {
+        @media only screen and (min-width: map-get($breakpoints, 'tablet')) {
+            @content;
+        }
+    }
+
+    // desktop up
+    @if $size == lg {
+        @media only screen and (min-width: map-get($breakpoints, 'desktop')) {
+            @content;
+        }
+    }
+}

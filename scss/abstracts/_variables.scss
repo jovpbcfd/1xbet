@@ -1,0 +1,28 @@
+// default
+$gap: 1.5rem;
+$box-padding-sm: 1em 0.5em;
+$box-padding-md: 1.5em 1em;
+$box-padding-lg: 2em;
+
+// headings
+$heading-line-height: 1.2;
+$heading-font-weight: 600;
+$heading-font-size-sm: 1.25rem;
+$heading-font-size-md: 1.5rem;
+$heading-font-size-lg: 2rem;
+
+// descriptions
+$description-line-height: 1.6;
+$description-font-size-sm: 1rem;
+$description-font-size-md: 1.125rem;
+$description-font-size-lg: 1.25rem;
+
+// When the font-size is modified by the user on settings page, then this will be equavalent to px
+$breakpoints: (
+    'mobile': 1.328125em,
+    // 425px
+    'tablet': 51.875em,
+    // 830px
+    'desktop': 90em,
+    // 1440px up
+);

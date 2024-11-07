@@ -1,0 +1,41 @@
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+body {
+    font-size: 16px;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased; // Anti-aliasing for smoother font rendering on macOS
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+h3 {
+    @include heading-default;
+    font-size: $heading-font-size-md;
+}
+
+h4 {
+    @include heading-default;
+    font-size: $heading-font-size-sm;
+}
+
+p {
+    @include description-default;
+}
+
+.highlight-black {
+    font-weight: bolder;
+}
+
+.box {
+    padding: $box-padding-sm;
+
+    @include screen-breakpoints(md) {
+        padding: $box-padding-md;
+    }
+    @include screen-breakpoints(lg) {
+        padding: $box-padding-lg;
+    }
+}
