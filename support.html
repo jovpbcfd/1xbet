@@ -1,160 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      <header
-        class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-6"
-      >
-        <h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
-        <nav>
-          <button
-            type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle menu</span>
-            <inline-svg src="./icons/bars-3.svg" title="navbtn" />
-          </button>
-          <div
-            class="w-full absolute left-0 right-0 mt-3 px-3 py-2 bg-white md:static md:mt-0 md:p-0 md:block md:w-auto"
-            id="navbar-default"
-          >
-            <ul
-              class="w-full flex flex-col px-4 pb-4 gap-3 md:gap-0 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/nav.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <header
+                class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-4 md:p-6"
             >
-              <li>
-                <a href="./home.html" class="block">Home</a>
-              </li>
-              <li>
-                <a href="./mobile-app.html" class="block">Mobile app</a>
-              </li>
-              <li>
-                <a href="./registration.html" class="block">Registration</a>
-              </li>
-              <li>
-                <a href="./promo-code.html" class="block">Promo Code</a>
-              </li>
-              <li>
-                <a href="./payment-method.html" class="block"
-                  >Payment methods</a
+                <h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
+
+                <nav class="p-4">
+                    <div class="max-w-7xl mx-auto flex justify-between items-center">
+                        <!-- Hamburger icon -->
+                        <button
+                            id="hamburger"
+                            type="button"
+                            class="text-black border-2 border-gray-700 rounded-md p-2 lg:hidden"
+                        >
+                            <span class="sr-only">open menu</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                class="h-6 w-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                ></path>
+                            </svg>
+                        </button>
+
+                        <!-- Menu items -->
+                        <div id="menu">
+                            <ul class="hidden lg:flex space-x-6 text-black">
+                                <li><a href="./home.html" class="block">Home</a></li>
+                                <li>
+                                    <a href="./mobile-app.html" class="block">Mobile app</a>
+                                </li>
+                                <li>
+                                    <a href="./registration.html" class="block">Registration</a>
+                                </li>
+                                <li>
+                                    <a href="./promo-code.html" class="block">Promo Code</a>
+                                </li>
+                                <li>
+                                    <a href="./payment-method.html" class="block"
+                                        >Payment methods</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./casino.html" class="block">Casino</a>
+                                </li>
+                                <li>
+                                    <a href="./support.html" class="block">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Mobile menu -->
+                <div
+                    id="mobileMenu"
+                    class="mobile-nav bg-white text-black px-5 py-10 flex flex-col gap-2 lg:hidden"
                 >
-              </li>
-              <li>
-                <a href="./casino.html" class="block">Casino</a>
-              </li>
-              <li>
-                <a href="./support.html" class="block">Support</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </div>
-    <div>
-      <section class="mt-10">
-        <div class="max-w-6xl mx-auto mb-8 leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">
-            1xBet Customer Support in Bangladesh
-          </h3>
-          <p class="my-5">
-            1xBet is dedicated to providing exceptional customer support to its
-            users in Bangladesh, ensuring a seamless and enjoyable betting and
-            gaming experience. The platform offers comprehensive support through
-            various channels tailored to meet the needs of its diverse customer
-            base. Here’s how 1xBet ensures accessible and effective customer
-            service for players in Bangladesh:
-          </p>
-
-          <ul class="list-decimal pl-4 leading-relaxed">
-            <li>
-              <span class="font-bold">24/7 Support: </span> 1xBet’s customer
-              service is available around the clock, ensuring that Bangladesh
-              users can get help whenever they need it, regardless of the time
-              of day.
-            </li>
-            <li>
-              <span class="font-bold">Multiple Contact Methods:</span> Players
-              can reach out to 1xBet’s support team via several convenient
-              methods in Bangladesh:
-              <ul class="list-disc pl-4 leading-relaxed">
-                <li>
-                  <span class="font-bold">Live Chat: </span> Available 24/7
-                  directly on the 1xBet website and app in Bangladesh, the live
-                  chat is the fastest way to get responses for urgent inquiries.
-                </li>
-                <li>
-                  <span class="font-bold">Email: </span> For more detailed
-                  support, users can email the team at support@1xbet.com. This
-                  method is suitable for less urgent issues that require
-                  thorough responses.
-                </li>
-                <li>
-                  <span class="font-bold">Phone Support: </span> Players can
-                  speak directly to a customer service representative by calling
-                  +44 127 325-69-87. This is particularly useful for resolving
-                  complex issues.
-                </li>
-                <li>
-                  <span class="font-bold">WhatsApp: </span>For a quick and
-                  convenient way to communicate, users can contact 1xBet BD
-                  through WhatsApp at +35795764426.
-                </li>
-                <li>
-                  <span class="font-bold">Telegram: </span> Users can also reach
-                  out via Telegram by messaging @bot1xbetBot.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <span class="font-bold">Language Support: </span> Recognizing the
-              linguistic diversity in Bangladesh, 1xBet offers support in
-              multiple languages, including Bengali. This ensures that users can
-              communicate effectively and receive assistance in their preferred
-              language.
-            </li>
-
-            <li>
-              <span class="font-bold">FAQ and Help Sections: </span>1xBet BD
-              provides a comprehensive FAQ and help section on website, covering
-              a wide range of topics from account management and betting rules
-              to payment methods and bonus terms. This resource allows users to
-              quickly find answers to common questions, often without the need
-              to contact support.
-            </li>
-
-            <li>
-              <span class="font-bold">Training and Resources:</span> Beyond
-              direct support, 1xBet offers guides and training resources to help
-              users understand how to use the Bangladesh platform and how to bet
-              effectively. This educational support is valuable for both new and
-              experienced users, enhancing their overall experience.
-            </li>
-
-            <li>
-              <span class="font-bold">Postal Address: </span>For formal
-              communications or legal matters, users can send mail to BD 1xBet’s
-              registered address: Bonnal Limited, 12A, Theklas Lesiotis Street,
-              Limassol, Cyprus.
-            </li>
-          </ul>
-
-          <p class="mt-10 mb-16">
-            By offering these multiple layers of support, 1xBet BD ensures that
-            its users in Bangladesh can enjoy a trouble-free and enjoyable
-            betting experience. Whether encountering technical difficulties,
-            needing clarification on rules, or requiring assistance with
-            transactions, 1xBet’s customer support is there to help every step
-            of the way in Bangladesh.
-          </p>
+                    <button id="closeMenu" class="ml-auto p-1 text-gray-400 border rounded-md">
+                        <span class="sr-only">Close menu</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18 18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </button>
+                    <div>
+                        <ul>
+                            <li><a href="./home.html" class="block px-2 py-1.5">Home</a></li>
+                            <li>
+                                <a href="./mobile-app.html" class="block px-2 py-1.5">Mobile app</a>
+                            </li>
+                            <li>
+                                <a href="./registration.html" class="block px-2 py-1.5"
+                                    >Registration</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./promo-code.html" class="block px-2 py-1.5">Promo Code</a>
+                            </li>
+                            <li>
+                                <a href="./payment-method.html" class="block px-2 py-1.5"
+                                    >Payment methods</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./casino.html" class="block px-2 py-1.5">Casino</a>
+                            </li>
+                            <li>
+                                <a href="./support.html" class="block px-2 py-1.5">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
         </div>
-      </section>
-    </div>
-  </body>
+        <main>
+            <section class="mt-10">
+                <div class="max-w-6xl mx-auto mb-8 leading-relaxed">
+                    <h3 class="font-medium text-3xl mb-3">1xBet Customer Support in Bangladesh</h3>
+                    <p class="my-5">
+                        1xBet is dedicated to providing exceptional customer support to its users in
+                        Bangladesh, ensuring a seamless and enjoyable betting and gaming experience.
+                        The platform offers comprehensive support through various channels tailored
+                        to meet the needs of its diverse customer base. Here’s how 1xBet ensures
+                        accessible and effective customer service for players in Bangladesh:
+                    </p>
+
+                    <ul class="list-decimal pl-4 leading-relaxed">
+                        <li>
+                            <span class="font-bold">24/7 Support: </span> 1xBet’s customer service
+                            is available around the clock, ensuring that Bangladesh users can get
+                            help whenever they need it, regardless of the time of day.
+                        </li>
+                        <li>
+                            <span class="font-bold">Multiple Contact Methods:</span> Players can
+                            reach out to 1xBet’s support team via several convenient methods in
+                            Bangladesh:
+                            <ul class="list-disc pl-4 leading-relaxed">
+                                <li>
+                                    <span class="font-bold">Live Chat: </span> Available 24/7
+                                    directly on the 1xBet website and app in Bangladesh, the live
+                                    chat is the fastest way to get responses for urgent inquiries.
+                                </li>
+                                <li>
+                                    <span class="font-bold">Email: </span> For more detailed
+                                    support, users can email the team at support@1xbet.com. This
+                                    method is suitable for less urgent issues that require thorough
+                                    responses.
+                                </li>
+                                <li>
+                                    <span class="font-bold">Phone Support: </span> Players can speak
+                                    directly to a customer service representative by calling +44 127
+                                    325-69-87. This is particularly useful for resolving complex
+                                    issues.
+                                </li>
+                                <li>
+                                    <span class="font-bold">WhatsApp: </span>For a quick and
+                                    convenient way to communicate, users can contact 1xBet BD
+                                    through WhatsApp at +35795764426.
+                                </li>
+                                <li>
+                                    <span class="font-bold">Telegram: </span> Users can also reach
+                                    out via Telegram by messaging @bot1xbetBot.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="font-bold">Language Support: </span> Recognizing the
+                            linguistic diversity in Bangladesh, 1xBet offers support in multiple
+                            languages, including Bengali. This ensures that users can communicate
+                            effectively and receive assistance in their preferred language.
+                        </li>
+
+                        <li>
+                            <span class="font-bold">FAQ and Help Sections: </span>1xBet BD provides
+                            a comprehensive FAQ and help section on website, covering a wide range
+                            of topics from account management and betting rules to payment methods
+                            and bonus terms. This resource allows users to quickly find answers to
+                            common questions, often without the need to contact support.
+                        </li>
+
+                        <li>
+                            <span class="font-bold">Training and Resources:</span> Beyond direct
+                            support, 1xBet offers guides and training resources to help users
+                            understand how to use the Bangladesh platform and how to bet
+                            effectively. This educational support is valuable for both new and
+                            experienced users, enhancing their overall experience.
+                        </li>
+
+                        <li>
+                            <span class="font-bold">Postal Address: </span>For formal communications
+                            or legal matters, users can send mail to BD 1xBet’s registered address:
+                            Bonnal Limited, 12A, Theklas Lesiotis Street, Limassol, Cyprus.
+                        </li>
+                    </ul>
+
+                    <p class="mt-10 mb-16">
+                        By offering these multiple layers of support, 1xBet BD ensures that its
+                        users in Bangladesh can enjoy a trouble-free and enjoyable betting
+                        experience. Whether encountering technical difficulties, needing
+                        clarification on rules, or requiring assistance with transactions, 1xBet’s
+                        customer support is there to help every step of the way in Bangladesh.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="flex items-center border-t border-slate-200">
+            <div class="max-w-6xl mx-auto py-12">
+                <p>Copyright &copy; 2024 1xbetbangladesh.com</p>
+            </div>
+        </footer>
+
+        <script src="./js/nav.js"></script>
+    </body>
 </html>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <!-- Will enable this one, once we have the URL  -->
-        <!-- <loc>url of the page</loc> -->
+         <!-- Will Change the URL here once we have our own domain   -->
+        <loc>https://jovpbcfd.github.io/1xbet/home.html</loc>
         <lastmod>11-5-2024</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

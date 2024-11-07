@@ -1,284 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      <header
-        class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-6"
-      >
-        <h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
-        <nav>
-          <button
-            type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle menu</span>
-            <inline-svg src="./icons/bars-3.svg" title="navbtn" />
-          </button>
-          <div
-            class="w-full absolute left-0 right-0 mt-3 px-3 py-2 bg-white md:static md:mt-0 md:p-0 md:block md:w-auto"
-            id="navbar-default"
-          >
-            <ul
-              class="w-full flex flex-col px-4 pb-4 gap-3 md:gap-0 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/nav.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <header
+                class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-4 md:p-6"
             >
-              <li>
-                <a href="./home.html" class="block">Home</a>
-              </li>
-              <li>
-                <a href="./mobile-app.html" class="block">Mobile app</a>
-              </li>
-              <li>
-                <a href="./registration.html" class="block">Registration</a>
-              </li>
-              <li>
-                <a href="./promo-code.html" class="block">Promo Code</a>
-              </li>
-              <li>
-                <a href="./payment-method.html" class="block"
-                  >Payment methods</a
+                <h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
+
+                <nav class="p-4">
+                    <div class="max-w-7xl mx-auto flex justify-between items-center">
+                        <!-- Hamburger icon -->
+                        <button
+                            id="hamburger"
+                            type="button"
+                            class="text-black border-2 border-gray-700 rounded-md p-2 lg:hidden"
+                        >
+                            <span class="sr-only">open menu</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                class="h-6 w-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                ></path>
+                            </svg>
+                        </button>
+
+                        <!-- Menu items -->
+                        <div id="menu">
+                            <ul class="hidden lg:flex space-x-6 text-black">
+                                <li><a href="./home.html" class="block">Home</a></li>
+                                <li>
+                                    <a href="./mobile-app.html" class="block">Mobile app</a>
+                                </li>
+                                <li>
+                                    <a href="./registration.html" class="block">Registration</a>
+                                </li>
+                                <li>
+                                    <a href="./promo-code.html" class="block">Promo Code</a>
+                                </li>
+                                <li>
+                                    <a href="./payment-method.html" class="block"
+                                        >Payment methods</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./casino.html" class="block">Casino</a>
+                                </li>
+                                <li>
+                                    <a href="./support.html" class="block">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Mobile menu -->
+                <div
+                    id="mobileMenu"
+                    class="mobile-nav bg-white text-black px-5 py-10 flex flex-col gap-2 lg:hidden"
                 >
-              </li>
-              <li>
-                <a href="./casino.html" class="block">Casino</a>
-              </li>
-              <li>
-                <a href="./support.html" class="block">Support</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </div>
-
-    <section class="bg-[#00304b] text-white mt-10 p-10 text-center">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="font-bold text-4xl">1xBet Online Casino in Bangladesh</h2>
-        <p class="my-9 font-normal">
-          1xBet’s online casino offers an impressive array of gaming options,
-          with more than 100 diverse games accessible to players from
-          Bangladesh. This includes a vibrant live casino environment where you
-          can indulge in card games, online slots, jackpots, and much more.
-          Starting with a modest minimum deposit of just BDT 115, new players
-          can unlock a generous welcome bonus of up to BDT 150,000 plus 150 free
-          spins. This welcome package is designed to give new users a
-          substantial boost as they explore the wide range of gaming activities
-          available at 1xBet BD.
-        </p>
-
-        <div class="flex w-full justify-center gap-5 mt-5">
-          <button
-            class="bg-[#6fab39] rounded-[3px] w-[250px] px-[30px] py-[15px] font-bold tracking-wide"
-          >
-            Download 1xbet App
-          </button>
-          <button
-            class="bg-[#6fab39] rounded-[3px] w-[250px] px-[30px] py-[15px] font-bold tracking-wide"
-          >
-            Register
-          </button>
+                    <button id="closeMenu" class="ml-auto p-1 text-gray-400 border rounded-md">
+                        <span class="sr-only">Close menu</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18 18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </button>
+                    <div>
+                        <ul>
+                            <li><a href="./home.html" class="block px-2 py-1.5">Home</a></li>
+                            <li>
+                                <a href="./mobile-app.html" class="block px-2 py-1.5">Mobile app</a>
+                            </li>
+                            <li>
+                                <a href="./registration.html" class="block px-2 py-1.5"
+                                    >Registration</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./promo-code.html" class="block px-2 py-1.5">Promo Code</a>
+                            </li>
+                            <li>
+                                <a href="./payment-method.html" class="block px-2 py-1.5"
+                                    >Payment methods</a
+                                >
+                            </li>
+                            <li>
+                                <a href="./casino.html" class="block px-2 py-1.5">Casino</a>
+                            </li>
+                            <li>
+                                <a href="./support.html" class="block px-2 py-1.5">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
         </div>
-      </div>
-    </section>
 
-    <section class="mt-10">
-      <div class="max-w-6xl mx-auto leading-loose">
-        <h3 class="font-medium text-3xl mb-3">
-          About 1xBet Casino in Bangladesh
-        </h3>
-        <p class="my-5">
-          1xBet Casino in Bangladesh offers an impressive variety of games,
-          ensuring that all players can find something to suit their interests.
-          Here’s a snapshot of the types of games available:
-        </p>
+        <main>
+            <section class="bg-[#00304b] text-white mt-10 p-10 text-center">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="font-bold text-4xl">1xBet Online Casino in Bangladesh</h2>
+                    <p class="my-9 font-normal">
+                        1xBet’s online casino offers an impressive array of gaming options, with
+                        more than 100 diverse games accessible to players from Bangladesh. This
+                        includes a vibrant live casino environment where you can indulge in card
+                        games, online slots, jackpots, and much more. Starting with a modest minimum
+                        deposit of just BDT 115, new players can unlock a generous welcome bonus of
+                        up to BDT 150,000 plus 150 free spins. This welcome package is designed to
+                        give new users a substantial boost as they explore the wide range of gaming
+                        activities available at 1xBet BD.
+                    </p>
 
-        <ul class="list-decimal pl-4 leading-loose">
-          <li>
-            <span class="font-bold">Slots: </span> A vast array of online slots,
-            ranging from classic three-reel games to advanced video slots with
-            innovative features and big jackpots.
-          </li>
-          <li>
-            <span class="font-bold">Table Games: </span> A comprehensive
-            collection of traditional table games including blackjack, roulette,
-            baccarat, and various poker variants.
-          </li>
-          <li>
-            <span class="font-bold">Live Dealer Games: </span> Real-time casino
-            games with live dealers, offering an immersive experience similar to
-            what you’d find in a physical casino. This includes live versions of
-            blackjack, roulette, baccarat, and poker.
-          </li>
-          <li>
-            <span class="font-bold">Lottery Games: </span> Various lottery-style
-            games like bingo and keno, which are easy to play and offer quick
-            wins.
-          </li>
-          <li>
-            <span class="font-bold">Progressive Jackpots: </span> Games
-            connected to progressive jackpots that grow with each bet placed,
-            offering the chance to win substantial amounts.
-          </li>
-          <li>
-            <span class="font-bold">Specialty Games: </span> Unique games like
-            scratch cards, wheel of fortune, and more for those looking for
-            something different.
-          </li>
-        </ul>
+                    <div class="flex w-full justify-center gap-5 mt-5">
+                        <button
+                            class="bg-[#6fab39] rounded-[3px] w-[250px] px-[30px] py-[15px] font-bold tracking-wide"
+                        >
+                            Download 1xbet App
+                        </button>
+                        <button
+                            class="bg-[#6fab39] rounded-[3px] w-[250px] px-[30px] py-[15px] font-bold tracking-wide"
+                        >
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </section>
 
-        <p class="my-5">
-          These games come from various reputable software providers, ensuring
-          high-quality graphics, sound, and reliability. With such a diverse
-          offering, 1xBet Online Casino caters to both casual players looking
-          for fun and serious gamblers aiming for big wins.
-        </p>
-      </div>
+            <section class="mt-10">
+                <div class="max-w-6xl mx-auto leading-loose">
+                    <h3 class="font-medium text-3xl mb-3">About 1xBet Casino in Bangladesh</h3>
+                    <p class="my-5">
+                        1xBet Casino in Bangladesh offers an impressive variety of games, ensuring
+                        that all players can find something to suit their interests. Here’s a
+                        snapshot of the types of games available:
+                    </p>
 
-      <div class="max-w-6xl mx-auto leading-loose">
-        <h3 class="font-medium text-3xl mb-3">1xBet Live Casino BD</h3>
-        <p class="my-5">
-          1xBet Live Casino offers a dynamic and engaging gaming experience for
-          players in Bangladesh, providing a real-time casino atmosphere right
-          from the comfort of their homes. This live casino platform is designed
-          to replicate the feel of a traditional casino, featuring live dealers
-          and a wide range of table games streamed in high definition. Here’s
-          what players in Bangladesh can expect from the 1xBet Live Casino BD:
-        </p>
+                    <ul class="list-decimal pl-4 leading-loose">
+                        <li>
+                            <span class="font-bold">Slots: </span> A vast array of online slots,
+                            ranging from classic three-reel games to advanced video slots with
+                            innovative features and big jackpots.
+                        </li>
+                        <li>
+                            <span class="font-bold">Table Games: </span> A comprehensive collection
+                            of traditional table games including blackjack, roulette, baccarat, and
+                            various poker variants.
+                        </li>
+                        <li>
+                            <span class="font-bold">Live Dealer Games: </span> Real-time casino
+                            games with live dealers, offering an immersive experience similar to
+                            what you’d find in a physical casino. This includes live versions of
+                            blackjack, roulette, baccarat, and poker.
+                        </li>
+                        <li>
+                            <span class="font-bold">Lottery Games: </span> Various lottery-style
+                            games like bingo and keno, which are easy to play and offer quick wins.
+                        </li>
+                        <li>
+                            <span class="font-bold">Progressive Jackpots: </span> Games connected to
+                            progressive jackpots that grow with each bet placed, offering the chance
+                            to win substantial amounts.
+                        </li>
+                        <li>
+                            <span class="font-bold">Specialty Games: </span> Unique games like
+                            scratch cards, wheel of fortune, and more for those looking for
+                            something different.
+                        </li>
+                    </ul>
 
-        <ul class="list-decimal pl-4 leading-loose">
-          <li>
-            <span class="font-bold">Diverse Game Selection: </span> 1xBet Live
-            Casino BD boasts a variety of popular table games, including Live
-            Blackjack, Live Roulette, Live Baccarat, and Live Poker. Each game
-            is available in multiple variants, catering to both high rollers and
-            those sticking to a budget.
-          </li>
-          <li>
-            <span class="font-bold">Professional Dealers: </span> The games are
-            hosted by professional and friendly dealers who conduct the games in
-            real-time. These dealers are trained to interact with players and
-            create a welcoming and engaging environment, just like what you
-            would find in a physical casino.
-          </li>
-          <li>
-            <span class="font-bold">Interactive Play: </span> Players have the
-            opportunity to interact with the dealers and other players through
-            live chat, enhancing the social aspect of the games. This
-            interaction makes the gaming experience more personal and enjoyable.
-          </li>
-          <li>
-            <span class="font-bold">Accessibility and Convenience: </span> The
-            live casino is accessible 24/7, allowing players from Bangladesh to
-            enjoy their favorite games at any time. The platform is optimized
-            for both desktop and mobile devices, ensuring a smooth and seamless
-            gaming experience on any device.
-          </li>
-          <li>
-            <span class="font-bold">Real-time Action: </span> Since the games
-            are streamed live, players can see all the action as it unfolds,
-            which adds to the excitement and transparency of the gaming
-            experience. This setup assures players that the games are fair and
-            not pre-recorded.
-          </li>
-          <li>
-            <span class="font-bold">Exclusive Bonuses: </span> 1xBet often
-            offers specific bonuses and promotions for their live casino games,
-            including cashback offers, deposit bonuses, and more, which can
-            enhance the overall value and excitement for Bangladesh players.
-          </li>
-        </ul>
+                    <p class="my-5">
+                        These games come from various reputable software providers, ensuring
+                        high-quality graphics, sound, and reliability. With such a diverse offering,
+                        1xBet Online Casino caters to both casual players looking for fun and
+                        serious gamblers aiming for big wins.
+                    </p>
+                </div>
 
-        <p class="my-5">
-          1xBet Live Casino is a top choice for players in Bangladesh looking
-          for a realistic casino experience without having to leave their home.
-          With its wide range of games, professional dealers, and the ability to
-          interact with other players, 1xBet Live Casino brings all the
-          excitement of Las Vegas to your screen in Bangladesh.
-        </p>
-      </div>
+                <div class="max-w-6xl mx-auto leading-loose">
+                    <h3 class="font-medium text-3xl mb-3">1xBet Live Casino BD</h3>
+                    <p class="my-5">
+                        1xBet Live Casino offers a dynamic and engaging gaming experience for
+                        players in Bangladesh, providing a real-time casino atmosphere right from
+                        the comfort of their homes. This live casino platform is designed to
+                        replicate the feel of a traditional casino, featuring live dealers and a
+                        wide range of table games streamed in high definition. Here’s what players
+                        in Bangladesh can expect from the 1xBet Live Casino BD:
+                    </p>
 
-      <div class="max-w-6xl mx-auto leading-relaxed mb-10">
-        <h3 class="font-medium text-3xl mb-3">
-          Other Futures of 1xBet Online Casino BD
-        </h3>
-        <p class="my-5">
-          1xBet Online Casino stands out in the Bangladesh market not only
-          because of its diverse range of games but also due to several
-          additional features that enhance the player experience. Here are some
-          noteworthy features that set 1xBet Online Casino Bangladesh apart:
-        </p>
+                    <ul class="list-decimal pl-4 leading-loose">
+                        <li>
+                            <span class="font-bold">Diverse Game Selection: </span> 1xBet Live
+                            Casino BD boasts a variety of popular table games, including Live
+                            Blackjack, Live Roulette, Live Baccarat, and Live Poker. Each game is
+                            available in multiple variants, catering to both high rollers and those
+                            sticking to a budget.
+                        </li>
+                        <li>
+                            <span class="font-bold">Professional Dealers: </span> The games are
+                            hosted by professional and friendly dealers who conduct the games in
+                            real-time. These dealers are trained to interact with players and create
+                            a welcoming and engaging environment, just like what you would find in a
+                            physical casino.
+                        </li>
+                        <li>
+                            <span class="font-bold">Interactive Play: </span> Players have the
+                            opportunity to interact with the dealers and other players through live
+                            chat, enhancing the social aspect of the games. This interaction makes
+                            the gaming experience more personal and enjoyable.
+                        </li>
+                        <li>
+                            <span class="font-bold">Accessibility and Convenience: </span> The live
+                            casino is accessible 24/7, allowing players from Bangladesh to enjoy
+                            their favorite games at any time. The platform is optimized for both
+                            desktop and mobile devices, ensuring a smooth and seamless gaming
+                            experience on any device.
+                        </li>
+                        <li>
+                            <span class="font-bold">Real-time Action: </span> Since the games are
+                            streamed live, players can see all the action as it unfolds, which adds
+                            to the excitement and transparency of the gaming experience. This setup
+                            assures players that the games are fair and not pre-recorded.
+                        </li>
+                        <li>
+                            <span class="font-bold">Exclusive Bonuses: </span> 1xBet often offers
+                            specific bonuses and promotions for their live casino games, including
+                            cashback offers, deposit bonuses, and more, which can enhance the
+                            overall value and excitement for Bangladesh players.
+                        </li>
+                    </ul>
 
-        <ul class="list-decimal pl-4 leading-loose">
-          <li>
-            <span class="font-bold">Multilingual Platform: </span> 1xBet BD
-            supports multiple languages, making it accessible to a broad
-            audience, including Bengali-speaking players. This feature ensures
-            that users can navigate the casino in their preferred language,
-            making their gaming experience more comfortable and enjoyable.
-          </li>
-          <li>
-            <span class="font-bold">Mobile Compatibility: </span> The casino is
-            fully optimized for mobile devices, allowing Bangladesh players to
-            access their favorite games on the go through the 1xBet mobile app
-            or directly via their mobile browser. This flexibility ensures that
-            players can enjoy seamless gameplay regardless of their location.
-          </li>
-          <li>
-            <span class="font-bold">Secure and Fair Gaming: </span> 1xBet BD
-            uses advanced encryption technology to protect user data and
-            transactions. Additionally, the casino is committed to fair gaming
-            practices, employing random number generators (RNGs) to ensure that
-            all game outcomes are entirely random and unbiased. This commitment
-            to fairness is bolstered by regular audits by independent testing
-            agencies.
-          </li>
-          <li>
-            <span class="font-bold">Variety of Payment Options: </span>
-            1xBet caters to the financial preferences of all players by offering
-            a wide range of Bangladesh payment methods. This includes
-            traditional banking options, e-wallets, mobile payments, and even
-            cryptocurrencies, ensuring quick and easy deposits and withdrawals.
-          </li>
-          <li>
-            <span class="font-bold">VIP Program and Loyalty Rewards: </span>
-            1xBet appreciates the loyalty of its Bangladesh players by offering
-            a VIP program and loyalty rewards that enhance the gaming
-            experience. Players earn points as they play, which can be converted
-            into free spins, bonus funds, and other rewards. Higher tiers in the
-            VIP program provide greater benefits, including exclusive
-            promotions, personal account management, and enhanced customer
-            support.
-          </li>
-          <li>
-            <span class="font-bold">Customer Support: </span> 1xBet BD offers
-            robust customer support with options like live chat, email, and
-            phone support available 24/7. The support team is knowledgeable and
-            responsive, ready to assist with any questions or issues that may
-            arise, ensuring that players have minimal downtime and maximum
-            enjoyment.
-          </li>
-          <li>
-            <span class="font-bold">Live Events and Tournaments: </span> The
-            casino frequently hosts live gaming events and tournaments,
-            providing players with the opportunity to compete against others for
-            increased winnings and special prizes. These events add an extra
-            layer of excitement and competitiveness to the gaming experience.
-          </li>
-        </ul>
+                    <p class="my-5">
+                        1xBet Live Casino is a top choice for players in Bangladesh looking for a
+                        realistic casino experience without having to leave their home. With its
+                        wide range of games, professional dealers, and the ability to interact with
+                        other players, 1xBet Live Casino brings all the excitement of Las Vegas to
+                        your screen in Bangladesh.
+                    </p>
+                </div>
 
-        <p class="my-5">
-          These features make 1xBet Online Casino a comprehensive and attractive
-          option for players in Bangladesh, providing a safe, enjoyable, and
-          dynamic online gaming environment.
-        </p>
-      </div>
-    </section>
-  </body>
+                <div class="max-w-6xl mx-auto leading-relaxed mb-10">
+                    <h3 class="font-medium text-3xl mb-3">
+                        Other Futures of 1xBet Online Casino BD
+                    </h3>
+                    <p class="my-5">
+                        1xBet Online Casino stands out in the Bangladesh market not only because of
+                        its diverse range of games but also due to several additional features that
+                        enhance the player experience. Here are some noteworthy features that set
+                        1xBet Online Casino Bangladesh apart:
+                    </p>
+
+                    <ul class="list-decimal pl-4 leading-loose">
+                        <li>
+                            <span class="font-bold">Multilingual Platform: </span> 1xBet BD supports
+                            multiple languages, making it accessible to a broad audience, including
+                            Bengali-speaking players. This feature ensures that users can navigate
+                            the casino in their preferred language, making their gaming experience
+                            more comfortable and enjoyable.
+                        </li>
+                        <li>
+                            <span class="font-bold">Mobile Compatibility: </span> The casino is
+                            fully optimized for mobile devices, allowing Bangladesh players to
+                            access their favorite games on the go through the 1xBet mobile app or
+                            directly via their mobile browser. This flexibility ensures that players
+                            can enjoy seamless gameplay regardless of their location.
+                        </li>
+                        <li>
+                            <span class="font-bold">Secure and Fair Gaming: </span> 1xBet BD uses
+                            advanced encryption technology to protect user data and transactions.
+                            Additionally, the casino is committed to fair gaming practices,
+                            employing random number generators (RNGs) to ensure that all game
+                            outcomes are entirely random and unbiased. This commitment to fairness
+                            is bolstered by regular audits by independent testing agencies.
+                        </li>
+                        <li>
+                            <span class="font-bold">Variety of Payment Options: </span>
+                            1xBet caters to the financial preferences of all players by offering a
+                            wide range of Bangladesh payment methods. This includes traditional
+                            banking options, e-wallets, mobile payments, and even cryptocurrencies,
+                            ensuring quick and easy deposits and withdrawals.
+                        </li>
+                        <li>
+                            <span class="font-bold">VIP Program and Loyalty Rewards: </span>
+                            1xBet appreciates the loyalty of its Bangladesh players by offering a
+                            VIP program and loyalty rewards that enhance the gaming experience.
+                            Players earn points as they play, which can be converted into free
+                            spins, bonus funds, and other rewards. Higher tiers in the VIP program
+                            provide greater benefits, including exclusive promotions, personal
+                            account management, and enhanced customer support.
+                        </li>
+                        <li>
+                            <span class="font-bold">Customer Support: </span> 1xBet BD offers robust
+                            customer support with options like live chat, email, and phone support
+                            available 24/7. The support team is knowledgeable and responsive, ready
+                            to assist with any questions or issues that may arise, ensuring that
+                            players have minimal downtime and maximum enjoyment.
+                        </li>
+                        <li>
+                            <span class="font-bold">Live Events and Tournaments: </span> The casino
+                            frequently hosts live gaming events and tournaments, providing players
+                            with the opportunity to compete against others for increased winnings
+                            and special prizes. These events add an extra layer of excitement and
+                            competitiveness to the gaming experience.
+                        </li>
+                    </ul>
+
+                    <p class="my-5">
+                        These features make 1xBet Online Casino a comprehensive and attractive
+                        option for players in Bangladesh, providing a safe, enjoyable, and dynamic
+                        online gaming environment.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="flex items-center border-t border-slate-200">
+            <div class="max-w-6xl mx-auto py-12">
+                <p>Copyright &copy; 2024 1xbetbangladesh.com</p>
+            </div>
+        </footer>
+
+        <script src="./js/nav.js"></script>
+    </body>
 </html>

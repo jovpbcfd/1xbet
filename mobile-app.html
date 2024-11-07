@@ -1,414 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      <header
-        class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-6"
-      >
-        <h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
-        <nav>
-          <button
-            type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle menu</span>
-            <inline-svg src="./icons/bars-3.svg" title="navbtn" />
-          </button>
-          <div
-            class="w-full absolute left-0 right-0 mt-3 px-3 py-2 bg-white md:static md:mt-0 md:p-0 md:block md:w-auto"
-            id="navbar-default"
-          >
-            <ul
-              class="w-full flex flex-col px-4 pb-4 gap-3 md:gap-0 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
-            >
-              <li>
-                <a href="./home.html" class="block">Home</a>
-              </li>
-              <li>
-                <a href="./mobile-app.html" class="block">Mobile app</a>
-              </li>
-              <li>
-                <a href="./registration.html" class="block">Registration</a>
-              </li>
-              <li>
-                <a href="./promo-code.html" class="block">Promo Code</a>
-              </li>
-              <li>
-                <a href="./payment-method.html" class="block"
-                  >Payment methods</a
-                >
-              </li>
-              <li>
-                <a href="./casino.html" class="block">Casino</a>
-              </li>
-              <li>
-                <a href="./support" class="block">Support</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </div>
-    <div>
-      <section class="bg-[#00304b] text-white mt-10 p-3 text-center md:p-10">
-        <div class="max-w-6xl md:mx-auto">
-          <h2 class="font-bold text-2xl md:text-4xl">
-            Download 1xBet App Bangladesh
-          </h2>
-          <p class="my-4 font-normal md:my-9">
-            World is changing, but one thing stays the same – the awesome and
-            profitable games with 1xBet BD. Gone are the days when you needed a
-            desktop computer to place your winning bets. Now, with the 1xBet app
-            BD, you can handle all your betting stuff right from your phone,
-            whether it’s Android, iOS, or Windows. Moving from desktop to mobile
-            means you can bet, follow sports events and play casino straight
-            from your phone. The app does everything the desktop site does, so
-            you can cheer for your favorite teams and watch live matches no
-            matter where you are.
-          </p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="./css/nav.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<header
+				class="flex relative w-full justify-between items-center max-w-6xl mx-auto p-4 md:p-6"
+			>
+				<h1 class="font-medium text-2xl">1xbet Bangladesh</h1>
 
-          <div class="flex w-full justify-center gap-2 mt-3 md:gap-5 md:mt-5">
-            <button
-              class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
-            >
-              Download 1xbet App
-            </button>
-            <button
-              class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
-            >
-              Register
-            </button>
-          </div>
-        </div>
-      </section>
+				<nav class="p-4">
+					<div class="max-w-7xl mx-auto flex justify-between items-center">
+						<!-- Hamburger icon -->
+						<button
+							id="hamburger"
+							type="button"
+							class="text-black border-2 border-gray-700 rounded-md p-2 lg:hidden"
+						>
+							<span class="sr-only">open menu</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								class="h-6 w-6"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16M4 18h16"
+								></path>
+							</svg>
+						</button>
 
-      <section class="mt-10 p-3 sm:p-5 md:p-0">
-        <div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">
-            1xBet Apk Download for Android BD
-          </h3>
+						<!-- Menu items -->
+						<div id="menu">
+							<ul class="hidden lg:flex space-x-6 text-black">
+								<li><a href="./home.html" class="block">Home</a></li>
+								<li>
+									<a href="./mobile-app.html" class="block">Mobile app</a>
+								</li>
+								<li>
+									<a href="./registration.html" class="block">Registration</a>
+								</li>
+								<li>
+									<a href="./promo-code.html" class="block">Promo Code</a>
+								</li>
+								<li>
+									<a href="./payment-method.html" class="block"
+										>Payment methods</a
+									>
+								</li>
+								<li>
+									<a href="./casino.html" class="block">Casino</a>
+								</li>
+								<li>
+									<a href="./support.html" class="block">Support</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
 
-          <p class="mt-4 mb-5">
-            Alright, bhai, let’s get you started with the 1xBet apk BD on your
-            Android, easy-peasy:
-          </p>
+				<!-- Mobile menu -->
+				<div
+					id="mobileMenu"
+					class="mobile-nav bg-white text-black px-5 py-10 flex flex-col gap-2 lg:hidden"
+				>
+					<button
+						id="closeMenu"
+						class="ml-auto p-1 text-gray-400 border rounded-md"
+					>
+						<span class="sr-only">Close menu</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-6"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18 18 6M6 6l12 12"
+							/>
+						</svg>
+					</button>
+					<div>
+						<ul>
+							<li><a href="./home.html" class="block px-2 py-1.5">Home</a></li>
+							<li>
+								<a href="./mobile-app.html" class="block px-2 py-1.5"
+									>Mobile app</a
+								>
+							</li>
+							<li>
+								<a href="./registration.html" class="block px-2 py-1.5"
+									>Registration</a
+								>
+							</li>
+							<li>
+								<a href="./promo-code.html" class="block px-2 py-1.5"
+									>Promo Code</a
+								>
+							</li>
+							<li>
+								<a href="./payment-method.html" class="block px-2 py-1.5"
+									>Payment methods</a
+								>
+							</li>
+							<li>
+								<a href="./casino.html" class="block px-2 py-1.5">Casino</a>
+							</li>
+							<li>
+								<a href="./support.html" class="block px-2 py-1.5">Support</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		</div>
 
-          <ol class="list-decimal pl-4 md:leading-loose">
-            <li>
-              <span class="font-bold">Hit the Button: </span> Just tap on the
-              ‘download 1xBet’ button right on our site.
-            </li>
-            <li>
-              <span class="font-bold">Allow Unknown Sources: </span> If your
-              phone asks, let it download 1xBet app BD from places you don’t
-              usually go to. It’s all good for this one.
-            </li>
+		<main>
+			<section class="bg-[#00304b] text-white mt-10 p-3 text-center md:p-10">
+				<div class="max-w-6xl md:mx-auto">
+					<h2 class="font-bold text-2xl md:text-4xl">
+						Download 1xBet App Bangladesh
+					</h2>
+					<p class="my-4 font-normal md:my-9">
+						World is changing, but one thing stays the same – the awesome and
+						profitable games with 1xBet BD. Gone are the days when you needed a
+						desktop computer to place your winning bets. Now, with the 1xBet app
+						BD, you can handle all your betting stuff right from your phone,
+						whether it’s Android, iOS, or Windows. Moving from desktop to mobile
+						means you can bet, follow sports events and play casino straight
+						from your phone. The app does everything the desktop site does, so
+						you can cheer for your favorite teams and watch live matches no
+						matter where you are.
+					</p>
 
-            <li>
-              <span class="font-bold">Download 1xBet App BD:</span> Get the
-              1xBet download going.
-            </li>
-            <li>
-              <span class="font-bold">Install:</span> After it’s downloaded,
-              open the file and get it installed.
-            </li>
-            <li>
-              <span class="font-bold">Play:</span> Open up the 1xBet apk BD, log
-              in, and start your betting game.
-            </li>
-          </ol>
+					<div class="flex w-full justify-center gap-2 mt-3 md:gap-5 md:mt-5">
+						<button
+							class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
+						>
+							Download 1xbet App
+						</button>
+						<button
+							class="bg-[#6fab39] rounded-[3px] font-bold tracking-wide text-md px-2 py-[10px] w-[200px] sm:py-[15px] md:w-[250px] md:px-[30px] md:py-[15px]"
+						>
+							Register
+						</button>
+					</div>
+				</div>
+			</section>
 
-          <p class="my-2">
-            Just follow these steps, and you’ll be all set to enjoy all the cool
-            betting options 1xBet has got, right on your Android phone in
-            Bangladesh.
-          </p>
-        </div>
+			<section class="mt-10 p-3 sm:p-5 md:p-0">
+				<div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">
+						1xBet Apk Download for Android BD
+					</h3>
 
-        <div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">
-            1xBet App Download in Bangladesh for iOS
-          </h3>
+					<p class="mt-4 mb-5">
+						Alright, bhai, let’s get you started with the 1xBet apk BD on your
+						Android, easy-peasy:
+					</p>
 
-          <p class="my-2">
-            Grabbing the 1xBet app for your iOS device is a breeze, bhai. Just
-            hit the “1xBet App Download” button on our Bangladesh site and it’ll
-            shoot you over to the Apple App Store. Once you’re there, just
-            search for 1xBet app BD and tap “Download.” After you install it,
-            you can log in with your usual details or sign up fresh to dive into
-            all of 1xBet’s betting action and Bangladesh casino thrills. The
-            app’s slick, quick to navigate, and keeps all your betting in a safe
-            zone.
-          </p>
+					<ol class="list-decimal pl-4 md:leading-loose">
+						<li>
+							<span class="font-bold">Hit the Button: </span> Just tap on the
+							‘download 1xBet’ button right on our site.
+						</li>
+						<li>
+							<span class="font-bold">Allow Unknown Sources: </span> If your
+							phone asks, let it download 1xBet app BD from places you don’t
+							usually go to. It’s all good for this one.
+						</li>
 
-          <p class="my-5">To get started, simply:</p>
+						<li>
+							<span class="font-bold">Download 1xBet App BD:</span> Get the
+							1xBet download going.
+						</li>
+						<li>
+							<span class="font-bold">Install:</span> After it’s downloaded,
+							open the file and get it installed.
+						</li>
+						<li>
+							<span class="font-bold">Play:</span> Open up the 1xBet apk BD, log
+							in, and start your betting game.
+						</li>
+					</ol>
 
-          <ol class="list-decimal pl-4 md:leading-loose">
-            <li>
-              Tap “1xBet App Download” on our Bangladesh site, and let it take
-              you to the App Store.
-            </li>
-            <li>Look up the 1xBet app there in Bangladesh.</li>
-          </ol>
+					<p class="my-2">
+						Just follow these steps, and you’ll be all set to enjoy all the cool
+						betting options 1xBet has got, right on your Android phone in
+						Bangladesh.
+					</p>
+				</div>
 
-          <p class="my-2">
-            Open 1xBetapp and log in with your existing account or sign up for a
-            new Bangladeshis one to start playing.
-          </p>
-        </div>
+				<div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">
+						1xBet App Download in Bangladesh for iOS
+					</h3>
 
-        <div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">
-            System Requirements for 1xBet App Bangladesh
-          </h3>
-          <p class="my-5">
-            The 1xBet apk is built to give you a smooth and fun betting vibe on
-            different Bangladesh gadgets. Below are the system requirements for
-            the 1xBet app in Bangladesh, ensuring optimal performance and
-            compatibility:
-          </p>
+					<p class="my-2">
+						Grabbing the 1xBet app for your iOS device is a breeze, bhai. Just
+						hit the “1xBet App Download” button on our Bangladesh site and it’ll
+						shoot you over to the Apple App Store. Once you’re there, just
+						search for 1xBet app BD and tap “Download.” After you install it,
+						you can log in with your usual details or sign up fresh to dive into
+						all of 1xBet’s betting action and Bangladesh casino thrills. The
+						app’s slick, quick to navigate, and keeps all your betting in a safe
+						zone.
+					</p>
 
-          <div class="max-w-6xl mx-auto">
-            <table
-              class="table-auto w-full border-collapse border border-slate-400"
-            >
-              <thead class="text-left">
-                <tr>
-                  <th class="border border-slate-600 md:p-2.5">
-                    Specification
-                  </th>
-                  <th class="border border-slate-600 md:p-2.5">
-                    Android Requirements
-                  </th>
-                  <th class="border border-slate-600 md:p-2.5">
-                    iOS Requirements
-                  </th>
-                </tr>
-              </thead>
-              <tbody class="text-left">
-                <tr>
-                  <th class="border border-slate-600 md:p-2.5 font-normal">
-                    Android/iOS Version
-                  </th>
-                  <td class="border border-slate-600 md:p-2.5">5.0+</td>
-                  <td class="border border-slate-600 md:p-2.5">8.0+</td>
-                </tr>
-                <tr>
-                  <th class="border border-slate-600 md:p-2.5 font-normal">
-                    RAM
-                  </th>
-                  <td class="border border-slate-600 md:p-2.5">2 Gb</td>
-                  <td class="border border-slate-600 md:p-2.5">1 Gb</td>
-                </tr>
-                <tr>
-                  <th class="border border-slate-600 md:p-2.5 font-normal">
-                    Processor
-                  </th>
-                  <td class="border border-slate-600 md:p-2.5">1.4 GHz</td>
-                  <td class="border border-slate-600 md:p-2.5">1.2 GHz</td>
-                </tr>
-                <tr>
-                  <th class="border border-slate-600 md:p-2.5 font-normal">
-                    Memory Free
-                  </th>
-                  <td class="border border-slate-600 md:p-2.5">90 Mb</td>
-                  <td class="border border-slate-600 md:p-2.5">90 Mb</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+					<p class="my-5">To get started, simply:</p>
 
-        <div class="max-w-6xl mx-auto mb-8 leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">General Recommendations</h3>
+					<ol class="list-decimal pl-4 md:leading-loose">
+						<li>
+							Tap “1xBet App Download” on our Bangladesh site, and let it take
+							you to the App Store.
+						</li>
+						<li>Look up the 1xBet app there in Bangladesh.</li>
+					</ol>
 
-          <ul class="list-disc pl-4 leading-loose">
-            <li>
-              <span class="font-bold">Screen Resolution: </span> Make sure your
-              screen can handle at least 320×480 resolution. It’s gonna make
-              everything look just right.
-            </li>
-            <li>
-              <span class="font-bold">Browser: </span> Use the freshest version
-              of your favorite browser if you’re hitting up 1xBet on mobile
-              through the web in Bangladesh.
-            </li>
-            <li>
-              <span class="font-bold">Additional Software: </span> Keep your
-              browser up to date for the web version, and don’t forget to update
-              your device software too—it helps with security and keeps things
-              running smooth.
-            </li>
-          </ul>
+					<p class="my-2">
+						Open 1xBetapp and log in with your existing account or sign up for a
+						new Bangladeshis one to start playing.
+					</p>
+				</div>
 
-          <p class="my-5">
-            1xBet apk is fine-tuned to fit your device’s specs, making sure that
-            betting, streaming live games, or playing casino titles is slick and
-            steady in Bangladesh. For the slickest experience, check these
-            things before you install the app. That way, you can dive into
-            Bangladesh 1xBet’s full spread of betting goodies without any
-            hitches.
-          </p>
-        </div>
+				<div class="max-w-6xl mx-auto mb-8 md:leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">
+						System Requirements for 1xBet App Bangladesh
+					</h3>
+					<p class="my-5">
+						The 1xBet apk is built to give you a smooth and fun betting vibe on
+						different Bangladesh gadgets. Below are the system requirements for
+						the 1xBet app in Bangladesh, ensuring optimal performance and
+						compatibility:
+					</p>
 
-        <div class="max-w-6xl mx-auto mb-8 leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">Update 1xBet App BD</h3>
-          <p class="my-5">
-            Updating the 1xBet app in Bangladesh is simple, it guarantees you
-            always have the latest features and security enhancements:
-          </p>
+					<div class="max-w-6xl mx-auto">
+						<table
+							class="table-auto w-full border-collapse border border-slate-400"
+						>
+							<thead class="text-left">
+								<tr>
+									<th class="border border-slate-600 md:p-2.5">
+										Specification
+									</th>
+									<th class="border border-slate-600 md:p-2.5">
+										Android Requirements
+									</th>
+									<th class="border border-slate-600 md:p-2.5">
+										iOS Requirements
+									</th>
+								</tr>
+							</thead>
+							<tbody class="text-left">
+								<tr>
+									<th class="border border-slate-600 md:p-2.5 font-normal">
+										Android/iOS Version
+									</th>
+									<td class="border border-slate-600 md:p-2.5">5.0+</td>
+									<td class="border border-slate-600 md:p-2.5">8.0+</td>
+								</tr>
+								<tr>
+									<th class="border border-slate-600 md:p-2.5 font-normal">
+										RAM
+									</th>
+									<td class="border border-slate-600 md:p-2.5">2 Gb</td>
+									<td class="border border-slate-600 md:p-2.5">1 Gb</td>
+								</tr>
+								<tr>
+									<th class="border border-slate-600 md:p-2.5 font-normal">
+										Processor
+									</th>
+									<td class="border border-slate-600 md:p-2.5">1.4 GHz</td>
+									<td class="border border-slate-600 md:p-2.5">1.2 GHz</td>
+								</tr>
+								<tr>
+									<th class="border border-slate-600 md:p-2.5 font-normal">
+										Memory Free
+									</th>
+									<td class="border border-slate-600 md:p-2.5">90 Mb</td>
+									<td class="border border-slate-600 md:p-2.5">90 Mb</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
 
-          <ul class="list-disc pl-4">
-            <li>Open the App: Launch the 1xBet app BD on your device.</li>
-            <li>
-              Visit Our Website: For Android users, always visit our website to
-              access the latest version of the app, as we consistently provide a
-              link to the most recent apk file.
-            </li>
-            <li>
-              1xBet Download and Install BD: Follow the provided link to
-              download and install the update. For iOS users, check for updates
-              directly in the App Store.
-            </li>
-            <li>
-              Restart the 1xBet Apk BD: After installing, restart the app to
-              ensure all new features are activated.
-            </li>
-          </ul>
+				<div class="max-w-6xl mx-auto mb-8 leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">General Recommendations</h3>
 
-          <p>
-            By regularly updating your 1xBet app via our trusted site, you can
-            be sure that it runs smoothly and remains secure in Bangladesh. This
-            way, you’re always getting the best functionality and enhanced
-            security, making your betting experience smoother and more reliable.
-          </p>
-        </div>
+					<ul class="list-disc pl-4 leading-loose">
+						<li>
+							<span class="font-bold">Screen Resolution: </span> Make sure your
+							screen can handle at least 320×480 resolution. It’s gonna make
+							everything look just right.
+						</li>
+						<li>
+							<span class="font-bold">Browser: </span> Use the freshest version
+							of your favorite browser if you’re hitting up 1xBet on mobile
+							through the web in Bangladesh.
+						</li>
+						<li>
+							<span class="font-bold">Additional Software: </span> Keep your
+							browser up to date for the web version, and don’t forget to update
+							your device software too—it helps with security and keeps things
+							running smooth.
+						</li>
+					</ul>
 
-        <div class="max-w-6xl mx-auto mb-8 leading-relaxed">
-          <h3 class="font-medium text-3xl mb-3">
-            Differences Between 1xBet App and Mobile Version in Bangladesh
-          </h3>
-          <p class="my-5">
-            Whether you roll with 1xBet app or the mobile Bangladesh site,
-            you’re all set for betting on the move, but each has its own perks:
-          </p>
+					<p class="my-5">
+						1xBet apk is fine-tuned to fit your device’s specs, making sure that
+						betting, streaming live games, or playing casino titles is slick and
+						steady in Bangladesh. For the slickest experience, check these
+						things before you install the app. That way, you can dive into
+						Bangladesh 1xBet’s full spread of betting goodies without any
+						hitches.
+					</p>
+				</div>
 
-          <ul class="list-disc pl-4">
-            <li>
-              <span class="font-bold">Ease of Access:</span> Once you’ve got
-              1xBet app BD, you’re good to go – just tap and start betting, no
-              browser needed. The mobile site, though, you’ll need to jump on
-              the internet, so it takes a wee bit more time to get rolling.
-            </li>
-            <li>
-              <span class="font-bold">Ease of Access:</span> Once you’ve got
-              1xBet app BD, you’re good to go – just tap and start betting, no
-              browser needed. The mobile site, though, you’ll need to jump on
-              the internet, so it takes a wee bit more time to get rolling.
-            </li>
-            <li>
-              <span class="font-bold">Ease of Access:</span> Once you’ve got
-              1xBet app BD, you’re good to go – just tap and start betting, no
-              browser needed. The mobile site, though, you’ll need to jump on
-              the internet, so it takes a wee bit more time to get rolling.
-            </li>
-            <li>
-              <span class="font-bold">Ease of Access:</span> Once you’ve got
-              1xBet app BD, you’re good to go – just tap and start betting, no
-              browser needed. The mobile site, though, you’ll need to jump on
-              the internet, so it takes a wee bit more time to get rolling.
-            </li>
-            <li>
-              <span class="font-bold">Ease of Access:</span> Once you’ve got
-              1xBet app BD, you’re good to go – just tap and start betting, no
-              browser needed. The mobile site, though, you’ll need to jump on
-              the internet, so it takes a wee bit more time to get rolling.
-            </li>
-          </ul>
+				<div class="max-w-6xl mx-auto mb-8 leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">Update 1xBet App BD</h3>
+					<p class="my-5">
+						Updating the 1xBet app in Bangladesh is simple, it guarantees you
+						always have the latest features and security enhancements:
+					</p>
 
-          <p>
-            Choosing between 1xBet app and the mobile site in Bangladesh? It
-            boils down to what’s more your style for ease, speed, and saving
-            your phone’s memory. Both are solid for placing bets on the go, with
-            the app offering a bit more polish for the regulars.
-          </p>
-        </div>
+					<ul class="list-disc pl-4">
+						<li>Open the App: Launch the 1xBet app BD on your device.</li>
+						<li>
+							Visit Our Website: For Android users, always visit our website to
+							access the latest version of the app, as we consistently provide a
+							link to the most recent apk file.
+						</li>
+						<li>
+							1xBet Download and Install BD: Follow the provided link to
+							download and install the update. For iOS users, check for updates
+							directly in the App Store.
+						</li>
+						<li>
+							Restart the 1xBet Apk BD: After installing, restart the app to
+							ensure all new features are activated.
+						</li>
+					</ul>
 
-        <div class="max-w-6xl mx-auto">
-          <h3 class="font-medium text-3xl mb-3">
-            1xBet App Bonuses in Bangladesh
-          </h3>
+					<p>
+						By regularly updating your 1xBet app via our trusted site, you can
+						be sure that it runs smoothly and remains secure in Bangladesh. This
+						way, you’re always getting the best functionality and enhanced
+						security, making your betting experience smoother and more reliable.
+					</p>
+				</div>
 
-          <p class="my-5">
-            1xBet is all the rage in Bangladesh thanks to its easy-to-use
-            features and local vibe.
-          </p>
+				<div class="max-w-6xl mx-auto mb-8 leading-relaxed">
+					<h3 class="font-medium text-3xl mb-3">
+						Differences Between 1xBet App and Mobile Version in Bangladesh
+					</h3>
+					<p class="my-5">
+						Whether you roll with 1xBet app or the mobile Bangladesh site,
+						you’re all set for betting on the move, but each has its own perks:
+					</p>
 
-          <p class="my-5">
-            The platform offers tons of sports betting choices with great odds,
-            giving you a better shot at winning big. It’s also really convenient
-            because you can use popular local payment methods like bKash, Nagad,
-            and Rocket, and you can handle everything in Bangladeshi Taka to
-            keep it easy.
-          </p>
+					<ul class="list-disc pl-4">
+						<li>
+							<span class="font-bold">Ease of Access:</span> Once you’ve got
+							1xBet app BD, you’re good to go – just tap and start betting, no
+							browser needed. The mobile site, though, you’ll need to jump on
+							the internet, so it takes a wee bit more time to get rolling.
+						</li>
+						<li>
+							<span class="font-bold">Ease of Access:</span> Once you’ve got
+							1xBet app BD, you’re good to go – just tap and start betting, no
+							browser needed. The mobile site, though, you’ll need to jump on
+							the internet, so it takes a wee bit more time to get rolling.
+						</li>
+						<li>
+							<span class="font-bold">Ease of Access:</span> Once you’ve got
+							1xBet app BD, you’re good to go – just tap and start betting, no
+							browser needed. The mobile site, though, you’ll need to jump on
+							the internet, so it takes a wee bit more time to get rolling.
+						</li>
+						<li>
+							<span class="font-bold">Ease of Access:</span> Once you’ve got
+							1xBet app BD, you’re good to go – just tap and start betting, no
+							browser needed. The mobile site, though, you’ll need to jump on
+							the internet, so it takes a wee bit more time to get rolling.
+						</li>
+						<li>
+							<span class="font-bold">Ease of Access:</span> Once you’ve got
+							1xBet app BD, you’re good to go – just tap and start betting, no
+							browser needed. The mobile site, though, you’ll need to jump on
+							the internet, so it takes a wee bit more time to get rolling.
+						</li>
+					</ul>
 
-          <p class="my-5">
-            1xBet app is tailored for on-the-go betting, making sure you get a
-            smooth experience wherever you are in Bangladesh. Newbies get a warm
-            welcome with juicy bonuses, like a 100% boost on your first deposit
-            up to 15,600 BDT, and there’s a casino welcome pack that throws up
-            to 150,000 BDT and 150 free spins your way. With top-notch customer
-            support and features like live betting and streaming, 1xBet app
-            creates a top-tier betting scene, making it a top pick for
-            Bangladeshi bettors.
-          </p>
+					<p>
+						Choosing between 1xBet app and the mobile site in Bangladesh? It
+						boils down to what’s more your style for ease, speed, and saving
+						your phone’s memory. Both are solid for placing bets on the go, with
+						the app offering a bit more polish for the regulars.
+					</p>
+				</div>
 
-          <div class="max-w-6xl mx-auto mb-10">
-            <table
-              class="table-auto w-full border-collapse border border-slate-400"
-            >
-              <thead class="text-left">
-                <tr>
-                  <th class="border border-slate-600 p-2.5">Bonus Type</th>
-                  <th class="border border-slate-600 p-2.5">Bonus Type</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="border border-slate-600 p-2.5">
-                    Sports Betting Bonus
-                  </td>
-                  <td class="border border-slate-600 p-2.5">
-                    100% first deposit bonus up to 15,600 BDT
-                  </td>
-                </tr>
-                <tr>
-                  <td class="border border-slate-600 p-2.5">
-                    Casino Welcome Package
-                  </td>
-                  <td class="border border-slate-600 p-2.5">
-                    Up to 150,000 BDT in bonuses plus 150 free spins
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-    </div>
+				<div class="max-w-6xl mx-auto">
+					<h3 class="font-medium text-3xl mb-3">
+						1xBet App Bonuses in Bangladesh
+					</h3>
 
-    <footer class="flex items-center border-t border-slate-200">
-      <div class="max-w-6xl mx-auto py-12">
-        <p>Copyright &copy; 2024 1xbetbangladesh.com</p>
-      </div>
-    </footer>
-  </body>
+					<p class="my-5">
+						1xBet is all the rage in Bangladesh thanks to its easy-to-use
+						features and local vibe.
+					</p>
+
+					<p class="my-5">
+						The platform offers tons of sports betting choices with great odds,
+						giving you a better shot at winning big. It’s also really convenient
+						because you can use popular local payment methods like bKash, Nagad,
+						and Rocket, and you can handle everything in Bangladeshi Taka to
+						keep it easy.
+					</p>
+
+					<p class="my-5">
+						1xBet app is tailored for on-the-go betting, making sure you get a
+						smooth experience wherever you are in Bangladesh. Newbies get a warm
+						welcome with juicy bonuses, like a 100% boost on your first deposit
+						up to 15,600 BDT, and there’s a casino welcome pack that throws up
+						to 150,000 BDT and 150 free spins your way. With top-notch customer
+						support and features like live betting and streaming, 1xBet app
+						creates a top-tier betting scene, making it a top pick for
+						Bangladeshi bettors.
+					</p>
+
+					<div class="max-w-6xl mx-auto mb-10">
+						<table
+							class="table-auto w-full border-collapse border border-slate-400"
+						>
+							<thead class="text-left">
+								<tr>
+									<th class="border border-slate-600 p-2.5">Bonus Type</th>
+									<th class="border border-slate-600 p-2.5">Bonus Type</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="border border-slate-600 p-2.5">
+										Sports Betting Bonus
+									</td>
+									<td class="border border-slate-600 p-2.5">
+										100% first deposit bonus up to 15,600 BDT
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-slate-600 p-2.5">
+										Casino Welcome Package
+									</td>
+									<td class="border border-slate-600 p-2.5">
+										Up to 150,000 BDT in bonuses plus 150 free spins
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="flex items-center border-t border-slate-200">
+			<div class="max-w-6xl mx-auto py-12">
+				<p>Copyright &copy; 2024 1xbetbangladesh.com</p>
+			</div>
+		</footer>
+
+		<script src="./js/nav.js"></script>
+	</body>
 </html>
