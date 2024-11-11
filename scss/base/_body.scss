@@ -29,6 +29,11 @@ p {
     font-weight: bolder;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .box {
     padding: $box-padding-sm;
 
