@@ -16,19 +16,29 @@
 
 .hero__title {
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 50.4px;
     @include heading-default;
 
     @include screen-breakpoints(md) {
-        font-size: $heading-font-size-md;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50.4px;
     }
     @include screen-breakpoints(lg) {
         font-size: $heading-font-size-lg;
+        font-weight: 700;
+        line-height: 50.4px;
     }
+}
+
+.hero__pre-description {
+    color: #fff;
 }
 
 .hero__description {
     color: #fff;
+    font-weight: 400;
     @include description-default;
 
     @include screen-breakpoints(md) {

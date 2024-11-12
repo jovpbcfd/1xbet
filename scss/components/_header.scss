@@ -45,6 +45,7 @@
             text-decoration: none;
             display: block;
             color: inherit;
+            font-weight: 400;
             padding: 0.2rem 0.3rem;
             cursor: pointer;
             border-radius: 0.375rem;
@@ -53,7 +54,7 @@
                 color 0.3s ease;
 
             &:hover {
-                background-color: #f5f5f5;
+                color: #045cb4;
             }
         }
     }
